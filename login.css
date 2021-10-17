@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+
+    background:rgb(105, 191, 219);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip:content-box;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#container{
+    display:flex;
+    margin:10px;
+    padding:2vh;
+    padding-top: 10vh;;
+    position: absolute;
+    top:10%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    background:rgb(14, 112, 106);
+    width:45vh;
+    height:70vh;
+    border-radius:15px;
+    box-shadow: 15px 10px 3em .5vh  rgba(32, 110, 116, 0.863)
+}
+
+#container .heading
+{
+    width:35vh;
+    height:4.5vh;
+    background: rgb(255, 255, 255);
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:.5vh;
+    border-radius: 20px;
+    box-shadow: 7px 5px 10em .2vh rgb(15, 3, 9);
+    border: 2px solid linear-gradient( rgb(4, 43, 36), rgb(167, 253, 239));
+    
+}
+#container .heading button{
+    background:transparent;
+    border:none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5vh;
+    font-weight: 800;
+    color:rgb(23, 177, 128);
+    cursor: pointer;
+    width:16vh;
+    transition: 0s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    
+}
+#container .heading button:focus
+{
+    background: #a0f8af ;
+    color:rgb(12, 28, 29);
+    font-weight: 900;
+
+}
+
+#container .forms{
+    position: absolute;
+    top:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:3vh 1vh;
+    width:90%;
+    height:50%;
+    margin:1vh;
+    overflow: hidden;
+
+}
+#container .forms form{
+    margin-bottom:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#container .forms #login{
+    position:relative;
+    
+    
+
+}
+#container .forms #sign{
+    position:relative;
+    top:0;
+}
+#container .forms form input{
+    color:whitesmoke;
+    font-weight: 700;
+    background:transparent;
+    margin-bottom:5%;
+    height:5.5vh;
+    border: none;
+    border-bottom: 2px solid rgb(209, 158, 82);
+    outline: none;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 0vh 1vh;
+}
+#container .forms form input::placeholder{
+    font-weight:400;
+    color:rgb(184, 173, 173);
+
+}
+#container .forms form input[type = "submit"]
+{
+    background: rgb(255, 252, 71);
+    font-size:2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    color:rgb(8, 92, 89);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px .5em 2px rgb(56, 85, 90);;
+    text-align: center;
+    transition: width 1s  cubic-bezier(0.19, 1, 0.22, 1);
+}
+#container .forms form input[type = "submit"]:hover
+{
+   opacity: .5;
+
+}
