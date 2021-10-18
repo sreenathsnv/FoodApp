@@ -30,7 +30,8 @@ body{
     width:45vh;
     height:70vh;
     border-radius:15px;
-    box-shadow: 15px 10px 3em .5vh  rgba(32, 110, 116, 0.863)
+    box-shadow: 15px 10px 3em .5vh  rgba(32, 110, 116, 0.863);
+    
 }
 
 #container .heading
@@ -80,6 +81,7 @@ body{
     height:50%;
     margin:1vh;
     overflow: hidden;
+    
 
 }
 #container .forms form{
@@ -87,6 +89,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transition: 1s;
 }
 #container .forms #login{
     position:relative;
