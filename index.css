@@ -111,7 +111,59 @@ body{
     background: rgb(255, 142, 12);
     border-radius: 7px;
 }
+/* ============== food search =============*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+    height:50px;
+}
+.search{
+    background-image: url("images/search\ background.jpg");
+    padding:6.5% 0;   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.search input[type="search"]{
+    width:50%;
+    padding:1.5%;
+    font-size: 1rem;
+    border:none;
+    border-radius:7px;
+}
+.text-center{
+    text-align: center;
+    color:cornflowerblue;
+    padding-bottom: 20px;
+}
+
+.btn{
+    padding:1.8%;
+    border:none;
+    font-size:1.1rem;
+    border-radius: 7px;
+}
+
+.btn-primary{
+    background-color: rgb(235, 136, 103);
+    color:#ffffff;
+    cursor:pointer;
+}
+
+.btn-primary:hover{
+    color:#ffffff;
+    background-color: rgb(241, 124, 89);
+}
+a{
+    color: rgb(223, 109, 109);
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color:coral;
+}
 /* =============== food items ============= */
 
 #food-items
