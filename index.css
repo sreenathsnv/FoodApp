@@ -80,16 +80,17 @@ body{
     flex-direction: row;
     width:79%;
     justify-content: space-between;
-    flex-wrap: nwrap;
+    flex-wrap: nowrap;
     justify-self: center;
     position:relative;
-    left:20%;
+    margin-left: .5vh;
+    left: 10%;
 }
 #home .nav .nav-bt{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color:rgb(133, 202, 196);
-    margin-bottom:.5vh;
+    margin-bottom:1.5vh;
     font-size: 1.5vh;
 }
 #home .nav .nav-bt:hover{
@@ -165,7 +166,8 @@ body{
     padding: 1vh;
     width:70%;
     max-width:40vh;
-    margin:2vh;
+    min-width: 15vh;
+    margin:1vh;
     height:auto;
     box-shadow: 8px 5px 2em .5vh rgb(232, 240, 198);
 
@@ -209,6 +211,7 @@ body{
     width:20%;
     padding: 1vh;
     margin: 2vh;
+    margin-bottom: 3vh;
     justify-content: space-around;
 
 }
