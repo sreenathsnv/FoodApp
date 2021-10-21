@@ -123,7 +123,7 @@ body{
     justify-content: space-around;
     padding:5vh 4vh;
     background: rgb(255, 255, 255);
-    margin:10vh 3vh 5vh 9vh;
+    margin:10vh 3vh 6vh 3vh;
 }
 #intro::after{
     content:"";
