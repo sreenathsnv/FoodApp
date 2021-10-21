@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Mitr&display=swap');
 *{
     margin:0;
     padding:0;
@@ -30,13 +29,14 @@ body{
     color:rgb(5, 41, 41);
 }
 #home{
+    background-image:linear-gradient(120deg,rgb(7, 26, 37),rgb(9, 61, 65));
     position:relative;
     width:100%;
     height:25vh;
-    background:rgb(7, 26, 37);
     display:flex;
     flex-direction: column;
     justify-content:space-around;
+    top:0;
 
 }
 #home .slide{
@@ -112,6 +112,43 @@ body{
     border-radius: 7px;
 }
 
+
+/* =================== Introduction ============== */
+
+#intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:5vh 4vh;
+    background: rgb(255, 255, 255);
+    margin:10vh 3vh 5vh 9vh;
+}
+#intro::after{
+    content:"";
+    width: 100%;
+    height:1px;
+    background-color: rgba(14, 26, 26, 0.651);
+    top:10%;
+    padding-left:2px;
+}
+#intro h1
+{
+    font-size: 6vh;
+    text-align: center;
+    font-family: 'Concert One';
+    font-weight: 500;
+    color:#16330e;
+    margin-top:1vh;
+    margin-bottom: 5vh;
+}
+#intro .description{
+    font-size: 2vh;
+    font-family: 'Mitr', sans-serif;
+    color:rgb(122, 121, 118);
+    margin-top:1vh;
+    margin-bottom: 2vh;
+}
 /* =============== food items ============= */
 
 #food-items
@@ -197,3 +234,15 @@ body{
 }
 
 
+@media screen and (min-width:639px) {
+
+    #food-items
+{
+    display:grid;
+    grid-template-columns: minmax(9vh,1fr) minmax(9vh,1fr);
+    justify-items: center;
+    gap: 1vh;
+}
+
+    
+}
